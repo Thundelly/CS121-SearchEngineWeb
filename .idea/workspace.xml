@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6e89eff-e9df-492f-8dac-2f9490921918" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +70,11 @@
       <updated>1586807906617</updated>
       <workItem from="1586807907872" duration="3732000" />
       <workItem from="1586835714488" duration="12387000" />
-      <workItem from="1587296943351" duration="4943000" />
+      <workItem from="1587296943351" duration="5115000" />
+      <workItem from="1588151238146" duration="1612000" />
+      <workItem from="1588717158266" duration="13000" />
+      <workItem from="1589394743458" duration="623000" />
+      <workItem from="1590625399814" duration="1094000" />
     </task>
     <task id="LOCAL-00001" summary="removed npm dependencies">
       <created>1587466816454</created>
