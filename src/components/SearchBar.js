@@ -17,7 +17,7 @@ const SearchBar = props => {
                 onSubmit={ onFormSubmit } >
                 <div className="field" >
                     <label >
-                        Image Search
+                        UCI ICS Website Search
                 </label >
                     <div style={ { display: 'flex' } }>
                         <input type="text"

@@ -6,13 +6,21 @@ const UrlList = props => {
 
     const displayResponse = (response) => {
         let list = []
-        for (let i = 0; i < 5; i++) {
-            list.push(<p key={ i }>{ response[ i ] }</p>)
-        }
-        
+
         if (!_.isEmpty(response)) {
-            list.push(<p key={ 5 }>Process Time: { response[ 'process_time' ] }</p>)
+            if (response[ 'error_status' ]) {
+                list.push(<p>{ response[ 'error_message' ] }</p>)
+
+            } else {
+                for (let i = 0; i < 10; i++) {
+                    list.push(<p key={ i }>{ i + 1 }. <a href={ response[ i ] }>{ response[ i ] }</a></p>)
+                }
+                list.push(<p key={ 11 }>Process Time: { response[ 'process_time' ] } ms.</p>)
+    
+            }
         }
+
+        console.log(list)
 
         return list
     }
