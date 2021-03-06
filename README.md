@@ -1,14 +1,41 @@
-### CS 121 - Search Engine Web GUI
+# CS121-SearchEngine
 
+## Current progress
 ---
+- Completed search engine (terminal gui).
 
-## Website URL
-- TBD
+## Usage Guide
 
-## Versions
-- v. 0.1 - Feb 20, 2021
+- Install node.js.
+- Install yarn package manager.
+- Install all the dependencies by running "yarn install"
+- Run the website server by running "yarn start"
 
+## Project directory
 ---
-
-# Features
-- TBD
+```
+root_directory
+|
+|__ public
+    |
+    |__ index.html
+|
+|__ src
+    |
+    |__ api
+        |__ searchEngine.js
+    |
+    |__ components
+        |__ App.js
+        |__ SearchBar.js
+        |__ UrlCard.js
+        |__ UrlList.js
+        |__ style
+            |__ SearchBar.css
+    |
+    |__ index.js
+|
+|__ package.json
+|__ yarn.lock
+|__ README.md
+```
